@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shoe Store</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 40px;
+            flex-wrap: wrap;
+        }
+
+        .shoe-card {
+            background: white;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .shoe-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .price {
+            color: green;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            border: none;
+            background: black;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>👟 My Shoe Store</h1>
+    <p>Best collection of shoes</p>
+</header>
+
+<div class="container">
+
+    <!-- Shoe 1 -->
+    <div class="shoe-card">
+        <img src="image/1.jpg" alt="Shoe 1">
+        <h2>Air Runner</h2>
+        <p>Comfortable running shoe for daily use.</p>
+        <p class="price">$50</p>
+        <button>Buy Now</button>
+    </div>
+
+    <!-- Shoe 2 -->
+    <div class="shoe-card">
+        <img src="image/2.jpeg" alt="Shoe 2">
+        <h2>Street Pro</h2>
+        <p>Stylish shoe for casual wear.</p>
+        <p class="price">$70</p>
+        <button>Buy Now</button>
+    </div>
+
+</div>
+
+</body>
+</html>
